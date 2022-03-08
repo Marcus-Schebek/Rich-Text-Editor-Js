@@ -66,6 +66,7 @@
 
   .fa-bold:hover,.fa-italic:hover,.fa-underline:hover,.fa-list-ul:hover,.fa-list-ol:hover,.fa-link:hover,.fa-align-left:hover,.fa-align-right:hover,.fa-align-center:hover,.fa-align-justify:hover{
     color: #ffffff;
+      transition: .5s ease;
   }
 
 .content{
