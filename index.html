@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rich Text Editor</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-content">
+        <div class="text-editor-class">
+          <button type="button" class="btn" data-element="bold">
+            <i class="fa fa-bold"></i>
+          </button>
+          <button type="button" class="btn" data-element="italic">
+            <i class="fa fa-italic"></i>
+          </button>
+          <button type="button" class="btn" data-element="underline">
+            <i class="fa fa-underline"></i>
+          </button>
+          <button type="button" class="btn" data-element="insertUnorderedList">
+            <i class="fa fa-list-ul"></i>
+          </button>
+          <button type="button" class="btn" data-element="insertOrderedList">
+            <i class="fa fa-list-ol"></i>
+          </button>
+          <button type="button" class="btn" data-element="createLink">
+            <i class="fa fa-link"></i>
+          </button>
+          <button type="button" class="btn" data-element="justifyLeft">
+            <i class="fa fa-align-left"></i>
+          </button>
+          <button type="button" class="btn" data-element="justifyRight">
+            <i class="fa fa-align-right"></i>
+          </button>
+          <button type="button" class="btn" data-element="justifyCenter">
+            <i class="fa fa-align-center"></i>
+          </button>
+          <button type="button" class="btn" data-element="justifyFull">
+            <i class="fa fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="content" contenteditable="true"></div>
+    </div>
+    <footer><h4>Create by Marcus Schebek</h4></footer>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/35ed3497d1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
